@@ -12,9 +12,6 @@
         <el-menu-item class="menu-brand" index="2">
           <a href="#price"><img src="https://img.icons8.com/ios-filled/30/fa314a/low-price.png"/></a>
         </el-menu-item>
-        <el-menu-item class="menu-brand" index="3">
-          <a href="#contacts"><img src="https://img.icons8.com/ios-filled/30/fa314a/apple-contacts.png"/></a>
-        </el-menu-item>
       </el-menu>
     </nav>
   </VueFixedHeader>
@@ -29,7 +26,6 @@
 import Init from './components/Main.vue'
 import Time from './components/Time.vue'
 import Price from './components/Price.vue'
-import Contacts from './components/Contacts.vue'
 import VueFixedHeader from 'vue-fixed-header'
 
 const createData = () => ({
@@ -43,7 +39,6 @@ export default {
     Init,
     Time,
     Price,
-    Contacts,
     VueFixedHeader
   },
   data() {
