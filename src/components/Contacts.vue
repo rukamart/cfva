@@ -14,11 +14,6 @@
         </div>
       </div>
     </div>
-    <div>
-      <a href="#time"><img src="https://img.icons8.com/ios-filled/50/fa314a/calendar.png"/></a>
-      <a href="#price"><img src="https://img.icons8.com/ios-filled/50/fa314a/low-price.png"/></a>
-      <a href="#home"><img src="https://img.icons8.com/ios-filled/50/fa314a/home.png"/></a>
-    </div>
   </div>
 </template>
 
@@ -27,9 +22,6 @@
 
 .contacts {
   margin-bottom: 10%;
-}
-a {
-  margin: 5%;
 }
 
 * {

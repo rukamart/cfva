@@ -30,11 +30,16 @@
           </div>
         </div>
       </div>
-    </div>
-    <div>
-      <a href="#time"><img src="https://img.icons8.com/ios-filled/50/fa314a/calendar.png"/></a>
-      <a href="#home"><img src="https://img.icons8.com/ios-filled/50/fa314a/home.png"/></a>
-      <a href="#contacts"><img src="https://img.icons8.com/ios-filled/50/fa314a/apple-contacts.png"/></a>
+
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>3</h2>
+            <h3>55 €</h3>
+            <p>Open house</p>
+          </div>
+        </div>
+            </div>
     </div>
     <parallax fixed="true">
       <img src="../assets/back3.jpeg">
@@ -66,10 +71,6 @@ export default {
   margin: auto;
   padding: 100px;
   color: red;
-}
-
-a {
-  margin: 5%;
 }
 
 * {
